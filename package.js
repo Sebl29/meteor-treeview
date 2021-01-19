@@ -1,13 +1,13 @@
 Package.describe({
     name: 'sebl29:treeview',
-    version: '1.2.2',
+    version: '1.2.3',
     summary: 'Show and edit data from a collection using jsTree',
     git: 'https://github.com/Sebl29/meteor-treeview',
     documentation: 'README.md'
 });
 
 Package.onUse((api) => {
-    api.versionsFrom("1.9");
+    api.versionsFrom('1.11.1');
     api.use([
         "ecmascript@0.14.1",
     ]);
